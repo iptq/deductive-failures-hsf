@@ -53,3 +53,9 @@ for i in range(len(fin)):
 	t = ord(p)
 print k
 ```
+
+I start `t` at 0, just as the encryption program had. Since the key is unknown, I left it blank, and the rest of it is just reversing the algorithm in the original program. Running this quickly returns the key:
+
+    VeryLongKeyYouWillNeverGuessVe
+
+where the last two letters is simply the start of the key again (`i % strlen(k)`)
