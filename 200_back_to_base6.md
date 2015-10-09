@@ -17,4 +17,16 @@ The name of the problem implies that we'll be dealing with different bases. This
 
 ### ZmxhZ3tp
 
-Most likely base64, since it's got both uppercase and lowercase letters and numbers. This part decodes to `flag{i`.
+Most likely base64, since it's got both uppercase and lowercase letters and numbers. This part decodes to `flag{i`. Looks like we'll have to add all of the parts together.
+
+### 745f7761735f
+
+Definitely hex. I just used [this website](http://www.rapidtables.com/convert/number/hex-to-ascii.htm) to decode it from hex. The result is `t_was_`.
+
+### 104 105 115 95 102 108
+
+It's decimal. They even separated it for you. This part decodes to `his_fl`.
+
+### 011000010110011101011111011011010111001001011111
+
+Binary. Since it's 48 characters long, there's 8 characters per byte, so it's 6 characters long, just like the previous parts. This binary part decodes to `ag_mr_`.
