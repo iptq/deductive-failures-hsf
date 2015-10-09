@@ -15,4 +15,5 @@
 * Network
 * Photo-rensics
 * Filez
+* Trivia
 
