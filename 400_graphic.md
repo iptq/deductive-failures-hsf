@@ -12,7 +12,7 @@ struct struct_0 {
     int32_t * e2;
 };
 ```
-The main function takes a
+The main function starts by fgets'ing the input into a char pointer str. Several cryptic variables are declared and a loop starts. In the loop, a set of if/elses check whether the next character is 'L', 'R', NULL, or something else. If the next character was R or L, a certain int was cast to a struct_0 pointer and another variable was set to an element in the struct_0. The actual process is more of a convoluted mess of variable casts and assignments, but 
 
 LxRLLxRRLxLxRLxRRxLxLxLxLxLL
 
