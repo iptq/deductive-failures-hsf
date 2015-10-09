@@ -58,7 +58,7 @@ I start `t` at 0, just as the encryption program had. Since the key is unknown, 
 
     VeryLongKeyYouWillNeverGuessVe
 
-where the last two letters is simply the start of the key again (`i % strlen(k)`). Now that we know the key, reversing the `message2.enc` should be really trivial.
+where the last two letters is simply the start of the key again (`i % strlen(k)`). Now that we know the key, reversing the `message2.enc` should be really trivial. A bit of algebra is required to do this part.
 
 ```python
 k = "VeryLongKeyYouWillNeverGuess"
