@@ -9,4 +9,4 @@ The thing is, PNG files have a file signature at the end of the file, and most i
 
 I then took the rest of the file and created a new file, and turns out, it's another PNG with exactly the same picture... almost. First thing I did was stick both images into ImageJ. Since the problem's called "What's the Difference", I figured you'd need to subtract the images to find something. ...and I got nothing.
 
-
+I ended up using PIL to subtract the images. My mistake the first time was using a black background, since the difference was also 
