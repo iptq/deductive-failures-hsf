@@ -8,6 +8,6 @@
 
 Aside from taking forever to download, this problem actually wasn't too bad. Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a veracrypt installer. We can confirm that both of these programs have already been installed on the system. I'm also guessing that the veracrypt program was used to create the catz file, but we have no information on that.
 
-
+First I tried to find differences between the logkeys program provided and the actual logkeys program from the internet, but there wasn't really any important clue.
 
 After a bit of exploration, I looked at the `logkeys.cc` source, and it seems that the `DEFAULT_LOG_FILE` is at `/var/log/logkeys.log`. So it seems that whoever used this VM before must have already had their keys logged.
