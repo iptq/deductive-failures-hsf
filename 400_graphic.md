@@ -42,7 +42,11 @@ The next step is to find how to get the 'value' to 0x764c648c, which is the cond
 
 0x0
 
+The last step was to find a path that went through these rooms. We found the following path, using an x for the non LR character when we needed to undo the value change for a step that isn't in the above list.
+
 LxRLLxRRLxLxRLxRRxLxLxLxLxLL
+
+Sure enough, sending this to the server returns with a message that we made it out alive, and the flag.
 
 ## Flag
 
