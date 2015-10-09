@@ -21,4 +21,4 @@ LxRLLxRRLxLxRLxRRxLxLxLxLxLL
 
 ## Flag
 
-flag{th3r3_and_b4ck_again}
+`flag{th3r3_and_b4ck_again}`
