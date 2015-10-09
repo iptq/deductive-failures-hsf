@@ -31,3 +31,4 @@ for i in range(len(pixels1)):
 imnew.save("imnew.png", "PNG")
 ```
 
+![imnew.png](files/imnew.png)
