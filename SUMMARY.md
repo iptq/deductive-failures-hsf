@@ -4,9 +4,9 @@
 * [Web](web.md)
    * [100 What's Good?](100_whats_good.md)
    * [150 So Board](150_so_board.md)
+   * 150 Styx
    * [400 Obfuscript](400_obfuscript.md)
    * [501 You Can Account on Me](501_you_can_account_on_me.md)
-   * 150 Styx
 * [Steganography](steganography.md)
    * [400 Skeuomorphic](400_skeuomorphic.md)
    * [500 Whats the Difference](500_whats_the_difference.md)
