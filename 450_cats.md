@@ -56,4 +56,8 @@ Protect hidden volume (if any)? (y=Yes/n=No) [No]:
 Enter your user password or administrator password:
 ```
 
-The veracrypt program should proceed to mount the catz volume. Inside this volume is a `CATZZZ` folder containing a bunch of pdfs and images. Immediately `grooming.pdf` and `health.pdf` stand out because they don't contain information like the other ones do. The flag was found in `grooming.pdf`.
+The veracrypt program should proceed to mount the catz volume. Inside this volume is a `CATZZZ` folder containing a bunch of pdfs and images. You can use a tool like [this website](http://www.extractpdf.com/) to extract hidden text out of PDFs. The flag was found inside `grooming.pdf`.
+
+## Flag
+
+`{DX5wMM0pCiNwtxf5bEhNscgIFQOWHjNECrp2NYBR}`
