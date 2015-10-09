@@ -16,5 +16,5 @@
 * [Photo-rensics](photo-rensics.md)
 * [Filez](filez.md)
 * [Trivia](trivia.md)
-* Recon
+* [Recon](recon.md)
 
