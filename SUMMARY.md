@@ -7,5 +7,5 @@
    * [501 You Can Account on Me](501_you_can_account_on_me.md)
 * [Steganography](steganography.md)
    * [500 Whats the Difference](500_whats_the_difference.md)
-   * 400 Skeuomorphic
+   * [400 Skeuomorphic](400_skeuomorphic.md)
 
