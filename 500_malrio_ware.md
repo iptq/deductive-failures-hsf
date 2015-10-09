@@ -8,3 +8,4 @@
 
 I did the stupid thing and ran the program. It put itself into my startup folder and displayed lola every 10 seconds or whatever it is.
 
+Wandering around lola.exe was even worse than wandering around Middle Earth.
