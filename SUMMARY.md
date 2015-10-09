@@ -15,6 +15,6 @@
 * [Network](network.md)
 * [Photo-rensics](photo-rensics.md)
 * [Filez](filez.md)
-* Trivia
+* [Trivia](trivia.md)
 * Recon
 
