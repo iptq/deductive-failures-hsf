@@ -6,3 +6,4 @@
 
 > malrio_ware_181ef8c6c5b667964d6be9f5fc7c404ebc5319e5.zip
 
+So I did the stupid thing and ran the program. It put itself into my startup folder and displayed lola every 10 seconds or whatever it is.
