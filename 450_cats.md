@@ -10,4 +10,5 @@ Aside from taking forever to download, this problem actually wasn't too bad. Ins
 
 First I tried to find differences between the logkeys program provided and the actual logkeys program from the internet, but there wasn't really any important clue.
 
-After a bit of exploration, I looked at the `logkeys.cc` source, and it seems that the `DEFAULT_LOG_FILE` is at `/var/log/logkeys.log`. So it seems that whoever used this VM before must have already had their keys logged.
+After a bit of exploration, I looked at the `logkeys.cc` source, and it seems that the `DEFAULT_LOG_FILE` is at `/var/log/logkeys.log`. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
+
