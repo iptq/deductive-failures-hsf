@@ -6,4 +6,5 @@
    * [400 Obfuscript](400_obfuscript.md)
    * [501 You Can Account on Me](501_you_can_account_on_me.md)
 * Steganography
+   * 500 Whats the Difference
 
