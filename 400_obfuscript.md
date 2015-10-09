@@ -60,3 +60,9 @@ Here's a summary of the conditions on `keyNumber`:
 Based on the previous conditions, the list of numbers that works is `[18, 42, 66, 90, 114, 138, 162, 186, 210, 234, 258, 282]`.
 
 The final condition is for `keyBool` to equal `(([0] == ![0] && NaN === NaN && (null instanceof Object)) || ((_0x6cab[54] instanceof String) == (true + false == 1)) && (!!(_0x6cab[55])))`, which evaluates to just false.
+
+I had to try multiple values of `keyNumber`, but eventually I got the correct number to be 114.
+
+## Flag
+
+`flag{truest10fr34-511,114,false}`
