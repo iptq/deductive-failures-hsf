@@ -10,7 +10,7 @@
    * [500 Whats the Difference](500_whats_the_difference.md)
 * [Reversing](reversing.md)
    * [400 Graphic](400_graphic.md)
-* Cryptography
+* [Cryptography](cryptography.md)
 * [Disk Forensics](disk_forensics.md)
 * [Network](network.md)
 * Photo-rensics
