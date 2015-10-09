@@ -32,3 +32,10 @@ imnew.save("imnew.png", "PNG")
 ```
 
 ![imnew.png](files/imnew.png)
+
+It's just a QR code. Put it through any QR code reader and you'll get the flag.
+
+## Flag
+
+flag{steganography_is_the_bane_of_my_existance}
+
