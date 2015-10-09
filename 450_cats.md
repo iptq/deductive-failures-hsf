@@ -12,3 +12,29 @@ First I tried to find differences between the logkeys program provided and the a
 
 After a bit of exploration, I looked at the `logkeys.cc` source, and it seems that the `DEFAULT_LOG_FILE` is at `/var/log/logkeys.log`. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
 
+```
+sudo apt-get install build-essential
+wget https://logkeys.googlecode.com/files/logkeys-.01.1a.tar.gz
+wget https://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+tar xvzf logkeys-0.1.1a.tar.gz
+cd logkeys-0.1.1a/
+./configure
+make
+sudo make install
+sudo locale-gen
+sudo logkeys -s
+sudo gedit ~/.bash_history
+cler
+clear
+veracrypt -t -c
+1
+/home/cats/catz
+128 M
+1
+2
+2
+Me0wL3tMeInPl$
+Me0wL3tMeInPl$
+vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbvua vawenvlfjvba;i vaw;vil;Vbhifvbahvbairk  iwbf irfirryarlhbvlhb ldbdkbvldv hbvhliebalkjverssnsnsr fefj g;ergp; gresgnlsbknbktjsnbkjtnkbjntsjrknblksnljsnb;ojrne orgse;go;egut;siggtibsi lknageosr;gnkjfd,n;ajrngout;fgnbseijrb f,nbs;efvmb gser
+
+```
