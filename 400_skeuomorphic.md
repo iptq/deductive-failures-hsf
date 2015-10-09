@@ -14,4 +14,10 @@ At this point, I looked up what the word skeuomorphic meant. According to Refere
 
 > an ornament or design on an object copied from a form of the object when made from another material or by other techniques, as an imitation metal rivet mark found on handles of prehistoric pottery.
 
-So that means there's another image somewhere on the hard drive that is probably a larger version of this 146x91 image.
+So that means there's another image somewhere on the hard drive that is probably a larger version of this 146x91 image. Doing a bit of research, I found that Ubuntu stores its background images in `/usr/share/backgrounds`.
+
+And there is a `warty-final-ubuntu.png` file inside of `/usr/share/backgrounds`. And at the end of this file is the real flag.
+
+## Flag
+
+`Flag:{l00ks_C4n_B3_Deci3vinG}`
