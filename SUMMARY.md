@@ -14,4 +14,5 @@
 * Disk Forensics
 * Network
 * Photo-rensics
+* Filez
 
