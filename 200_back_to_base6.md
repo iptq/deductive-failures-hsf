@@ -17,4 +17,4 @@ The name of the problem implies that we'll be dealing with different bases. This
 
 ### ZmxhZ3tp
 
-Most likely base64, since it's got both uppercase and lowercase letters.
+Most likely base64, since it's got both uppercase and lowercase letters and numbers. This part decodes to `flag{i`.
