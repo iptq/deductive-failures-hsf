@@ -16,4 +16,5 @@
 * Photo-rensics
 * Filez
 * Trivia
+* Recon
 
