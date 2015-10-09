@@ -6,3 +6,5 @@
 
 So there's an encryption algorithm in `encryptor.c`, which encrypted `message1` to `message1.enc` and a missing `message2` to `message2.enc`. And we're trying to find the original `message2`.
 
+To approach this, we'll figure out how `message1` is encrypted to `message1.enc`, and the key used, and then reverse the process for `message2.enc`.
+
