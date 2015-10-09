@@ -13,7 +13,7 @@
 * [Cryptography](cryptography.md)
 * [Disk Forensics](disk_forensics.md)
 * [Network](network.md)
-* Photo-rensics
+* [Photo-rensics](photo-rensics.md)
 * Filez
 * Trivia
 * Recon
