@@ -20,14 +20,12 @@ im2 = Image.open("bane2.png")
 pixels1 = list(im1.getdata())
 pixels2 = list(im2.getdata())
 
-pixels = []
 imnew = Image.new("RGB", (1831, 2000), "white") # dimensions from the original image
 
 for i in range(len(pixels1)):
 	p1 = list(pixels1[i])
 	p2 = list(pixels2[i])
 	if p1 != p2:
-		# pixels.append([p2[i] | p1[i] for i in range(len(p1))])
 		imnew.putpixel((i % 1831, i // 1831), (p2[0]-p1[0], p2[1]-p1[1], p2[2]-p1[2]))
 
 imnew.save("imnew.png", "PNG")
