@@ -6,4 +6,4 @@
 
 > cats_51474229fe0d9bbd8da500fe3f74b383d175cee1.zip
 
-Aside from taking forever to download, this problem actually wasn't too bad.
+Aside from taking forever to download, this problem actually wasn't too bad. Inside the user's home directory, there seems to be a keylogger program, and a veracrypt installer.
