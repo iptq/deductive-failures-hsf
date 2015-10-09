@@ -23,14 +23,23 @@ Following this, we created a map of all of the 'items' that you can find, which 
 ![graphic.jpg](files/graphic.jpg)
 
 The next step is to find how to get the 'value' to 0x764c648c, which is the condition for get_password() to be called. Looking through the program, it turns out that our 'value' is v3, and it gets xor'ed with the room number every iteration. After some fiddling around, we found a list of rooms that had an 'xor sum' of 0x764c648c:
+
 0x8badf00d
+
 0xdeadc0de
+
 0xdeadfeed
+
 0xfee1dead
+
 0xfaceb00b
+
 0x743029ab
+
 0x11111112
+
 0x42424242
+
 0x0
 
 LxRLLxRRLxLxRLxRRxLxLxLxLxLL
