@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Steganography
 * [Web](web.md)
    * [100 What's Good?](100_whats_good.md)
    * [400 Obfuscript](400_obfuscript.md)
