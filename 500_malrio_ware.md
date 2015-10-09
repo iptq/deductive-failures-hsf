@@ -23,3 +23,11 @@ Using IDA, I generated some pseudo-C code that makes understanding the function 
 Looks like it takes the flag and XORs each character by `0x42`. Simple enough. Where's the flag? Well, we could dig around the binary and look for how it's constructed, or we could just run it and then break it where the decrypt function is called, and look at the memory. Let's break at the last line of the decrypt function, right before it's closed.
 
 ![breakpoint.png](files/breakpoint.png)
+
+I know this is dangerous, but let's run it on the local Win32 debugger. The breakpoint causes the program execution to stop right after it's decrypted the whole string, but before it returned. So the decrypted flag should still be in memory.
+
+![memory_flag.png](files/memory_flag.png)
+
+## Flag
+
+`flag_{l0la_w4nts_t0_n0m_y3r_warez}`
