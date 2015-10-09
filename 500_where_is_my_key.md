@@ -58,4 +58,26 @@ I start `t` at 0, just as the encryption program had. Since the key is unknown, 
 
     VeryLongKeyYouWillNeverGuessVe
 
-where the last two letters is simply the start of the key again (`i % strlen(k)`)
+where the last two letters is simply the start of the key again (`i % strlen(k)`). Now that we know the key, reversing the `message2.enc` should be really trivial.
+
+```python
+k = "VeryLongKeyYouWillNeverGuess"
+m = open("message_2.enc", "rb").read()
+
+t = 0
+m2 = ""
+for i in range(len(m)):
+	q = m[i]
+	p = chr((ord(q) - i*i - (ord(k[i%len(k)]) ^ t)) & 0xff)
+	t = ord(p)
+	m2 += p
+print m2
+```
+
+Which returns our original message!
+
+    Nice job! You solved the challenge. Here is your flag: flag{3ncrypti0n_f0r_th3_w1n}
+    
+## Flag
+
+`flag{3ncrypti0n_f0r_th3_w1n}`
