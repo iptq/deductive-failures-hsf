@@ -40,4 +40,20 @@ vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbv
 
 I have no idea how this keylogger can log keys before it was even started `>.>`. That's pretty scary.
 
-But from this log file, it's clear how the catz file was created now.
+But from this log file, it's clear how the catz file was created now. Now we can use the veracrypt program to decrypt this volume and get the flag.
+
+```bash
+cats@ubuntu:~$ veracrypt --mount catz
+Enter mount directory [default]:
+Enter password for /home/cats/catz:
+```
+
+The password was given in the log file. It's `Me0wL3tMeInPl$`.
+
+```bash
+Enter keyfile [none]:
+Protect hidden volume (if any)? (y=Yes/n=No) [No]:
+Enter your user password or administrator password:
+```
+
+The veracrypt program should proceed to mount the catz volume. Inside this volume is a `CATZZZ` folder containing a bunch of pdfs and images. Immediately `grooming.pdf` and `health.pdf` stand out because they don't contain information like the other ones do. The flag was found in `grooming.pdf`.
