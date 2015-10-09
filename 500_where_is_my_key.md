@@ -37,4 +37,19 @@ int main(int argc, char **argv) {
 }
 ```
 
-Looks like some custom encryption. Let's try to reverse it.
+Looks like some custom encryption. Let's try to reverse it. I used Python to write this script.
+
+```python
+fin = open("message_1", "rb").read()
+ftest = open("message_1.enc", "rb").read()
+
+t = 0
+k = ""
+for i in range(len(fin)):
+	p = fin[i]
+	q = ftest[i]
+	kc = ((ord(q) - ord(p) - i * i) ^ t) & 0xff
+	k += chr(kc)
+	t = ord(p)
+print k
+```
