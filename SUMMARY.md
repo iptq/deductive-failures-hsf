@@ -11,7 +11,7 @@
 * [Reversing](reversing.md)
    * [400 Graphic](400_graphic.md)
 * Cryptography
-* Disk Forensics
+* [Disk Forensics](disk_forensics.md)
 * Network
 * Photo-rensics
 * Filez
