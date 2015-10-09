@@ -1,4 +1,4 @@
-# 500 Graphic
+# 400 Graphic
 
 > Your parents told you to never wander in Middle Earth by yourself.
 > nc 54.152.31.35 1337
@@ -7,13 +7,8 @@
 filler
 LxRLLxRRLxLxRLxRRxLxLxLxLxLL
 
-```python
+![graphic.jpg](files/graphic.jpg)
 
-```
-
-![imnew.png](files/imnew.png)
-
-It's just a QR code. Put it through any QR code reader and you'll get the flag.
 
 ## Flag
 
