@@ -37,3 +37,7 @@ Me0wL3tMeInPl$
 Me0wL3tMeInPl$
 vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbvua vawenvlfjvba;i vaw;vil;Vbhifvbahvbairk  iwbf irfirryarlhbvlhb ldbdkbvldv hbvhliebalkjverssnsnsr fefj g;ergp; gresgnlsbknbktjsnbkjtnkbjntsjrknblksnljsnb;ojrne orgse;go;egut;siggtibsi lknageosr;gnkjfd,n;ajrngout;fgnbseijrb f,nbs;efvmb gser
 ```
+
+I have no idea how this keylogger can log keys before it was even started `>.>`. That's pretty scary.
+
+But from this log file, it's clear how the catz file was created now.
