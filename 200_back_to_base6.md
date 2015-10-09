@@ -13,4 +13,8 @@ NNZGCYTTL4======
 <~Blm^+@<5dnF_tSDEaNs,0OK)ZI/~>
 ```
 
-The name of the problem implies that we'll be dealing with different bases. This problem will go really quickly if you can recognize
+The name of the problem implies that we'll be dealing with different bases. This problem will go really quickly if you can recognize them already.
+
+### ZmxhZ3tp
+
+Most likely base64, since it's got both uppercase and lowercase letters.
