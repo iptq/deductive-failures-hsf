@@ -12,6 +12,7 @@
    * [400 Graphic](400_graphic.md)
 * [Cryptography](cryptography.md)
    * [500 Where is My Key](500_where_is_my_key.md)
+   * 200 Back to Base6
 * [Disk Forensics](disk_forensics.md)
    * [400 True Cryptography](400_true_cryptography.md)
 * [Network](network.md)
