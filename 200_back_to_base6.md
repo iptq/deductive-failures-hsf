@@ -12,3 +12,5 @@ ZmxhZ3tp
 NNZGCYTTL4======
 <~Blm^+@<5dnF_tSDEaNs,0OK)ZI/~>
 ```
+
+The name of the problem implies that we'll be dealing with different bases. This problem will go really quickly if you can recognize
