@@ -14,7 +14,7 @@
 * [Disk Forensics](disk_forensics.md)
 * [Network](network.md)
 * [Photo-rensics](photo-rensics.md)
-* Filez
+* [Filez](filez.md)
 * Trivia
 * Recon
 
