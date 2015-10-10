@@ -14,6 +14,7 @@ Inside the user's home directory, there seems to be a random `catz` file, keylog
 
 ![cats1.png](files/cats1.png)
 
+
 Since we don't know anything about `veracrypt`, let's first run `logkeys`. Running it produced a list of options we could use. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
 
 ```
