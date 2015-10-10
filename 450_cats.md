@@ -8,7 +8,7 @@
 
 Aside from taking forever to download, this problem actually wasn't too bad.
 
-Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a veracrypt installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system. I'm also guessing that the veracrypt program was used to create the catz file, but we have no information on that.
+Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a veracrypt installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
 
 First I tried to find differences between the logkeys program provided and the actual logkeys program from the internet, but there wasn't really any important clue.
 
