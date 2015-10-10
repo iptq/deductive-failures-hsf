@@ -1,6 +1,6 @@
 # 450 Cats
 
-by The Deductive Failures
+Writeup by The Deductive Failures
 
 > I had fun once, it was horrible.
 
