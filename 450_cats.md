@@ -40,9 +40,7 @@ Me0wL3tMeInPl$
 vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbvua vawenvlfjvba;i vaw;vil;Vbhifvbahvbairk  iwbf irfirryarlhbvlhb ldbdkbvldv hbvhliebalkjverssnsnsr fefj g;ergp; gresgnlsbknbktjsnbkjtnkbjntsjrknblksnljsnb;ojrne orgse;go;egut;siggtibsi lknageosr;gnkjfd,n;ajrngout;fgnbseijrb f,nbs;efvmb gser
 ```
 
-I have no idea how this keylogger can log keys before it was even started `>.>`. That's pretty scary.
-
-But from this log file, it's clear how the catz file was created now. Now we can use the veracrypt program to decrypt this volume and get the flag.
+I have no idea how this keylogger can log keys before it was even started `>.>`. That's pretty scary. Let's ignore that part and look at the more interesting part. Starting from `veracrypt -t -c` it becomes pretty clear how the catz file was created now. Now we can use the veracrypt program to decrypt this volume and get the flag.
 
 ```bash
 cats@ubuntu:~$ veracrypt --mount catz
