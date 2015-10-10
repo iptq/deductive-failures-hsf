@@ -46,23 +46,9 @@ Me0wL3tMeInPl$
 vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbvua vawenvlfjvba;i vaw;vil;Vbhifvbahvbairk  iwbf irfirryarlhbvlhb ldbdkbvldv hbvhliebalkjverssnsnsr fefj g;ergp; gresgnlsbknbktjsnbkjtnkbjntsjrknblksnljsnb;ojrne orgse;go;egut;siggtibsi lknageosr;gnkjfd,n;ajrngout;fgnbseijrb f,nbs;efvmb gser
 ```
 
-I have no idea how this keylogger can log keys before it was even started `>.>`. That's pretty scary. Let's ignore that part and look at the more interesting part. Starting from `veracrypt -t -c` it becomes pretty clear how the catz file was created now. Now we can use the veracrypt program to decrypt this volume and get the flag.
+I'm still kinda confused how the keylogger was able to log anything before `sudo logkeys -s`. Weird.
 
-```bash
-cats@ubuntu:~$ veracrypt --mount catz
-Enter mount directory [default]:
-Enter password for /home/cats/catz:
-```
-
-The password was given in the log file. It's `Me0wL3tMeInPl$`.
-
-```bash
-Enter keyfile [none]:
-Protect hidden volume (if any)? (y=Yes/n=No) [No]:
-Enter your user password or administrator password:
-```
-
-The veracrypt program should proceed to mount the catz volume. Inside this volume is a `CATZZZ` folder containing a bunch of pdfs and images. You can use a tool like [this website](http://www.extractpdf.com/) to extract hidden text out of PDFs. The flag was found inside `grooming.pdf`.
+So it seems that `catz` is a volume of files created by `veracrypt`. The password is `Me0wL3tMeInPl$`, and there seems to be no keyfile used. Since we already have `veracrypt` installed, we can just use that to mount the volume.
 
 ## Flag
 
