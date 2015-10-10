@@ -59,6 +59,10 @@ Protect hidden volume (if any)? (y=Yes/n=No) [No]:
 Enter your user password or administrator password:
 ```
 
+![cats3.png](files/cats3.png)
+
+A bunch of PDFs and images.
+
 ## Flag
 
 `{DX5wMM0pCiNwtxf5bEhNscgIFQOWHjNECrp2NYBR}`
