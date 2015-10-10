@@ -12,6 +12,8 @@ Aside from taking forever to download, this problem actually wasn't too bad.
 
 Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a `veracrypt` installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
 
+![cats1.png](files/cats1.png)
+
 Since we don't know anything about `veracrypt`, let's first run `logkeys`. Running it produced a list of options we could use. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
 
 ```
