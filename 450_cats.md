@@ -14,8 +14,11 @@ Inside the user's home directory, there seems to be a random `catz` file, keylog
 
 ![cats1.png](files/cats1.png)
 
+Since we don't know anything about `veracrypt`, let's first run `logkeys`. Running it produced a list of options we could use. Immediately I noticed that there was a default output file.
 
-Since we don't know anything about `veracrypt`, let's first run `logkeys`. Running it produced a list of options we could use. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
+![cats2.png](files/cats2.png)
+
+Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. We can use the log to figure out what the person who used this VM did to create the `catz` file. Let's take a look at the log file.
 
 ```
 sudo apt-get install build-essential
