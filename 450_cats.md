@@ -61,7 +61,9 @@ Enter your user password or administrator password:
 
 ![cats3.png](files/cats3.png)
 
-A bunch of PDFs and images. Let's try the PDFs first. A quick Google search on `extract resources from pdf linux` returned
+A bunch of PDFs and images. Let's try the PDFs first. I did a quick Google search on `extract resources from pdf linux`, and found that Ubuntu has tools preinstalled for extracting things out of PDFs :D.
+
+
 
 ## Flag
 
