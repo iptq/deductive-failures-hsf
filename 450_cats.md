@@ -50,7 +50,7 @@ vyiivyiviparapvraivpyvyrivfyipefiyewyfwvpfiyewvfhnfzslc hvbhawbvklvhbsizbc awhbv
 
 I'm still kinda confused how the keylogger was able to log anything before `sudo logkeys -s`. Weird.
 
-So it seems that `catz` is a volume of files created by `veracrypt`. The password is `Me0wL3tMeInPl$`, and there seems to be no keyfile used. Since we already have `veracrypt` installed, we can just use that to mount the volume.
+So it seems that `catz` is a volume of files created by `veracrypt`. The password is `Me0wL3tMeInPl$`, and there seems to be no keyfile used. Since `veracrypt` is already installed, we can just use that to mount the volume.
 
 ```
 cats@ubuntu:~$ veracrypt --mount catz
