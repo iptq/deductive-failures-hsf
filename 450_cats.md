@@ -16,7 +16,7 @@ So the first thing I did was browse the VM for any clues. Inside the user's home
 
 ![cats1.png](files/cats1.png)
 
-Since we don't know anything about `veracrypt`, let's first run `logkeys`. Running it produced a list of options we could use. Immediately I noticed that there was a default output file.
+Since we don't know anything about `veracrypt`, we'll focus on `logkeys` first. I tried to diff the `logkeys` on the VM with the legit `logkeys` to see if it had been tampered with, but I didn't find anything special. Let's first run `logkeys`. Running it produced a list of options we could use. Immediately I noticed that there was a default output file.
 
 ![cats2.png](files/cats2.png)
 
