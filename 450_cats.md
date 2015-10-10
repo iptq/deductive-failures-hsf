@@ -10,11 +10,9 @@ by The Deductive Failures
 
 Aside from taking forever to download, this problem actually wasn't too bad.
 
-Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a veracrypt installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
+Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a `veracrypt` installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
 
-First I tried to find differences between the logkeys program provided and the actual logkeys program from the internet, but there weren't really any important clues.
-
-After a bit of exploration, I looked at the `logkeys.cc` source, and it seems that the `DEFAULT_LOG_FILE` is at `/var/log/logkeys.log`. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
+Since we don't know anything about `veracrypt`, let's first run `logkeys`. Sure enough, there was a `logkeys.log` file inside `/var/log`. So it seems that whoever used this VM before must have already gotten keylogged. Let's take a look at the log file.
 
 ```
 sudo apt-get install build-essential
