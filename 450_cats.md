@@ -65,6 +65,8 @@ A bunch of PDFs and images. Let's try the PDFs first. I did a quick Google searc
 
 So there's `pdfimages` and `pdftotext`, but `pdftohtml` should be able to do it all. We `pdftohtml` all the files, and then grep for "flag" and sure enough, the flag was there!
 
+![cats4.png](files/cats4.png)
+
 ## Flag
 
 `{DX5wMM0pCiNwtxf5bEhNscgIFQOWHjNECrp2NYBR}`
