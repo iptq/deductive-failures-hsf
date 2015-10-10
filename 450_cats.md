@@ -8,7 +8,7 @@ Writeup by The Deductive Failures
 
 > cats_51474229fe0d9bbd8da500fe3f74b383d175cee1.zip
 
-Aside from taking forever to download, this problem actually wasn't too bad.
+Since I was the only one on the team to have not-crappy internet, I ended up solving it myself. Aside from taking forever to download, this problem actually wasn't too bad.
 
 ![cats0.png](files/cats0.png)
 
