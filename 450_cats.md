@@ -65,7 +65,7 @@ Enter your user password or administrator password:
 
 It's a volume containing a bunch of PDFs and images. Let's try the PDFs first. I did a quick Google search on `extract resources from pdf linux`, and found that Ubuntu has tools preinstalled for extracting things out of PDFs :D.
 
-So there's `pdfimages` and `pdftotext`, but `pdftohtml` should be able to do it all. We `pdftohtml` all the files, and then grep for "flag" and sure enough, the flag was there!
+So there's `pdfimages` and `pdftotext`, but `pdftohtml` should be able to do it all. `pdftohtml`ing all the files, and then grep for "flag" and sure enough, the flag was there!
 
 ![cats4.png](files/cats4.png)
 
