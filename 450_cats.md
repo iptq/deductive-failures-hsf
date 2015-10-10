@@ -10,7 +10,7 @@ Writeup by The Deductive Failures
 
 Aside from taking forever to download, this problem actually wasn't too bad.
 
-Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a `veracrypt` installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
+So the first thing I did was browse the VM for anything. Inside the user's home directory, there seems to be a random `catz` file, keylogger program, and a `veracrypt` installer. `file`ing the catz file didn't help; it just said it was "data". We can confirm that both `logkeys` and `veracrypt` have already been installed on the system.
 
 ![cats1.png](files/cats1.png)
 
@@ -70,3 +70,4 @@ So there's `pdfimages` and `pdftotext`, but `pdftohtml` should be able to do it 
 ## Flag
 
 `{DX5wMM0pCiNwtxf5bEhNscgIFQOWHjNECrp2NYBR}`
+
