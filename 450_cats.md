@@ -1,5 +1,7 @@
 # 450 Cats
 
+by The Deductive Failures
+
 > I had fun once, it was horrible.
 
 > Password: F3lyn34LifE!
