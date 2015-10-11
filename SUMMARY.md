@@ -13,6 +13,7 @@
 * [Reversing](reversing.md)
    * [400 Graphic](400_graphic.md)
    * [500 Malrio Ware](500_malrio_ware.md)
+   * 200 Varrick
 * [Cryptography](cryptography.md)
    * [200 Back to Base6](200_back_to_base6.md)
    * [500 Where is My Key](500_where_is_my_key.md)
